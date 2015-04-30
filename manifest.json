@@ -1,0 +1,14 @@
+{
+    "manifest_version": 2,
+    "name": "Bits to Butts",
+    "version": "1.0",
+    "description": "Replace every occurence of Bitcoin with Buttcoin.",
+    "content_scripts": 
+    [
+        {
+            "matches": ["*://*/*"],
+            "js": ["script.js"],
+            "run_at": "document_end"
+        }
+    ]
+}
